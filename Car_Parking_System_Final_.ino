@@ -36,7 +36,9 @@
        }
     }
   
-  if(flag1==1 && flag2==1)
+  if(flag1==1 && flag2==1) // here the condition should have been || instead of &&
+    // but still its working
+    // check the issue raised on this repository
   {
     delay (1000);
     i.write(0);
